@@ -1,21 +1,16 @@
 <template>
   <Layout>
-    <h1>{{title}}</h1>
-    <p>{{description}}</p>
+    <Hero />
   </Layout>
 </template>
 
 <script>
+import Hero from '../components/Hero'
 export default {
+  components: { Hero },
   metaInfo: {
     title: 'Hello, world!',
     description: '@iocodz'
-  },
-  data() {
-    return {
-      title: 'Hello World!',
-      description: '@iocodz'
-    }
   }
 }
 </script>
