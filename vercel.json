@@ -1,0 +1,20 @@
+{
+  "redirects": [
+    {
+      "source": "/linkedin",
+      "destination": "https://www.linkedin.com/in/iocodz/"
+    },
+    {
+      "source": "/github",
+      "destination": "https://github.com/iocodz"
+    },
+    {
+      "source": "/stackoverflow",
+      "destination": "https://stackoverflow.com/users/11168104/ra%c3%bal-c-rivero"
+    },
+    {
+      "source": "/cv",
+      "destination": "/Raul Castro Rivero - EN.pdf"
+    }
+  ]
+}

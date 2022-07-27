@@ -1,21 +1,39 @@
 <template>
   <Layout>
-    <h1>{{title}}</h1>
-    <p>{{description}}</p>
+    <Hero />
+    <Projects />
   </Layout>
 </template>
 
 <script>
+import Hero from '../components/Hero'
+import Projects from '../components/Projects'
 export default {
+  components: { Hero, Projects },
   metaInfo: {
-    title: 'Hello, world!',
-    description: '@iocodz'
-  },
-  data() {
-    return {
-      title: 'Hello World!',
-      description: '@iocodz'
-    }
+    title: 'Raúl C. Rivero',
+    meta: [
+      {
+        name: 'author',
+        content: 'Raúl C. Rivero | @iocodz'
+      },
+      {
+        key: 'og:description',
+        name: 'og:description',
+        content: 'Software Engineer with 5+ years background passionate about developing user-friendly software applications.'
+      },
+      {
+        key: 'twitter:description',
+        name: 'twitter:description',
+        content: 'Software Engineer with 5+ years background passionate about developing user-friendly software applications.'
+      },
+      {
+        key: 'og:url',
+        name: 'og:url',
+        content: 'https://iocodz.me/picture.jpg',
+      }
+    ],
+
   }
 }
 </script>

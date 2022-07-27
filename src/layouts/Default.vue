@@ -1,18 +1,13 @@
 <template>
-  <div>
-    <header>
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-    </header>
+  <div class="bg-primary">
     <slot/>
+    <Footer />
   </div>
 </template>
 
-<static-query>
-query {
-  metadata {
-    siteName
-  }
+<script>
+import Footer from '../components/Footer'
+export default {
+  components: { Footer }
 }
-</static-query>
+</script>
