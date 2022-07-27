@@ -1,5 +1,13 @@
 <template>
-  <main class="bg-primary">
+  <div class="bg-primary">
     <slot/>
-  </main>
+    <Footer />
+  </div>
 </template>
+
+<script>
+import Footer from '../components/Footer'
+export default {
+  components: { Footer }
+}
+</script>

@@ -1,6 +1,6 @@
 <template>
-  <div class="min-h-screen flex flex-col justify-center items-center gap-5">
-    <h2 class="text-white font-bold text-4xl">Projects <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-blue-600">@iocodz</span></h2>
+  <div class="min-h-screen flex flex-col justify-center items-center gap-5 py-20 bg-secondary">
+    <h2 class="text-white font-bold text-4xl">Projects</h2>
     <p class="text-white text-center text-lg w-3/4 md:w-1/2">I love developing side-projects, it's one of the ways I can experience new technologies. Here you will find a list with my latest.</p>
     <div class="flex flex-wrap justify-center gap-5 w-2/3">
       <a class="relative h-84 w-96 overflow-hidden" v-for="project in projects" :href="project.href">
