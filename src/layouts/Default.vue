@@ -1,18 +1,9 @@
 <template>
-  <div>
-    <header>
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-    </header>
+  <main class="min-h-screen bg-primary">
     <slot/>
-  </div>
+  </main>
 </template>
 
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
+<style>
+* {font-family: Jost, Helvetica, "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif}
+</style>
