@@ -3,7 +3,3 @@
     <slot/>
   </main>
 </template>
-
-<style>
-* {font-family: Jost, Helvetica, "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif}
-</style>
