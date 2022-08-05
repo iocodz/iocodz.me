@@ -31,6 +31,10 @@ export default {
         {
           href: '/cv',
           icon: '/cv.svg'
+        },
+        {
+          href: '/contact',
+          icon: '/contact.svg'
         }
       ]
     }
