@@ -15,6 +15,10 @@
     {
       "source": "/cv",
       "destination": "/Raul Castro Rivero - EN.pdf"
+    },
+    {
+      "source": "/contact",
+      "destination": "mailto:contact@iocodz.me"
     }
   ]
 }

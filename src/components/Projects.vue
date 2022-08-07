@@ -40,6 +40,13 @@ export default {
           tech: 'Node · NPM',
           href: 'https://github.com/iocodz/serverless-functions-api-docs',
           image: '/project/serverless.png'
+        },
+        {
+          title: 'Drunk Note',
+          description: 'Web application to manage your account in bars and restaurants.',
+          tech: 'Vue · Tailwind CSS',
+          href: 'https://drunknote.xyz',
+          image: '/project/drunknote.png'
         }
       ]
     }
