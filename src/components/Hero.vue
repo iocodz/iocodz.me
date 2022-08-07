@@ -29,10 +29,6 @@ export default {
           icon: '/stackoverflow.svg'
         },
         {
-          href: '/cv',
-          icon: '/cv.svg'
-        },
-        {
           href: '/contact',
           icon: '/contact.svg'
         }
