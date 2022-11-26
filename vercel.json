@@ -5,6 +5,10 @@
       "destination": "https://www.linkedin.com/in/iocodz/"
     },
     {
+      "source": "/twitter",
+      "destination": "https://www.twitter.com/iocodz/"
+    },
+    {
       "source": "/github",
       "destination": "https://github.com/iocodz"
     },
